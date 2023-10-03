@@ -1,9 +1,9 @@
 ---
 draft: false
-title: " Introduction to the Essential Data Structures & Algorithms"
+title: " Es la comida vegana una mejor opcion?"
 snippet: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 image: {
-    src: "https://images.unsplash.com/photo-1627163439134-7a8c47e08208?&fit=crop&w=430&h=240",
+    src: "https://i.blogs.es/e78f73/recetas-vegans/1366_2000.jpg",
     alt: "data structures & algorithms"
 }
 publishDate: "2022-11-09 16:39"
