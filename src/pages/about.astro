@@ -14,20 +14,20 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 <Layout title="About">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
-    </Sectionhead>
+      <Fragment slot="title">Acerca de NutriVeggie</Fragment>
+      <Fragment slot="desc">Somos una iniciativa innovadora y responsable comprometida con la alimentación sostenible.</Fragment>
+</Sectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+<div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Astro.
+        Empoderando al mundo con NutriVeggie.
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        ¡Somos un equipo multicultural de todo el mundo! Provenimos de diversos
+        orígenes, aportando diferentes personalidades, experiencias y habilidades al
+        trabajo. Esto es lo que hace que nuestro equipo sea tan especial.
       </p>
-    </div>
+</div>
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
         publishedTeamMembers.map((teamMemberEntry) => (

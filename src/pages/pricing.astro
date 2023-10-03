@@ -6,70 +6,68 @@ import PricingCard from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
+    name: "Paquete Inicial",
+    price: "Gratis",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "Recetas Vegetarianas Sostenibles",
+      "Menús Aprobados por Nutricionistas",
+      "Ingredientes Frescos de Productores Locales",
+      "Embalaje Ecológico",
+      "Soporte de Comunidad",
     ],
     button: {
-      text: "Get Started",
-      link: "/",
+      text: "Explorar Ahora",
+      link: "/menu",
     },
   },
   {
-    name: "Startup",
+    name: "Vida Saludable",
     price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
+      mensual: "$19",
+      anual: "$16",
+      descuento: "10%",
       original: "$24",
     },
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "Inclusiones del Paquete Inicial",
+      "Planes de Comida para Dietas Especiales",
+      "Opciones de Productos Orgánicos",
+      "Suscripción Semanal de Entregas",
+      "Soporte al Cliente Prioritario",
     ],
     button: {
-      text: "Get Started",
-      link: "#",
+      text: "Ordenar Ahora",
+      link: "/suscripciones",
     },
   },
   {
-    name: "Enterprise",
-    price: "Custom",
+    name: "Experiencia Personalizada",
+    price: "Personalizado",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Inclusiones de Vida Saludable",
+      "Consulta de Menú Personalizada",
+      "Creaciones Especiales del Chef",
+      "Servicios de Catering para Eventos",
+      "Asesor Nutricional Dedicado",
     ],
     button: {
-      text: "Contact us",
-      link: "/contact",
+      text: "Contáctanos",
+      link: "/contacto",
     },
   },
 ];
 ---
 
+
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title">Precios y planes</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Tenemos estas propuestas para ti.
       </Fragment>
     </Sectionhead>
 
